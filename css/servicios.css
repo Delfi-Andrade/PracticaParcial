@@ -1,1 +1,20 @@
 @import url('./globals.css');
+body{
+    background-image: url(../img/fondoServicios.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+main{
+    display: flex;
+    height: 90dvh;
+    color: var(--texto);
+    backdrop-filter: blur(5px);
+    flex-direction: column;
+}
+.info{
+    color: var(--texto);
+    text-align: center;
+    justify-content:center ;
+}
