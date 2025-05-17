@@ -1,0 +1,35 @@
+:root{
+    --colorbase:#4C1A57;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    padding: 16px;
+    h1{
+        color: black;
+    }
+    font-family: system-ui, -apple-system;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 40%;
+}
+ul.menu li a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
