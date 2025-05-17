@@ -6,6 +6,9 @@ body{
     background-repeat: no-repeat;
     
 }
+#opcion a{
+    color: black;
+}
 main{
     display: flex;
     height: 90dvh;
@@ -14,7 +17,7 @@ main{
     flex-direction: column;
 }
 .info{
-    color: var(--texto);
+    color: black;
     text-align: center;
     justify-content:center ;
 }
