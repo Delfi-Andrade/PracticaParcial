@@ -1,1 +1,49 @@
 @import url('./globals.css');
+body{
+    background-image: url(../img/fondoContacto.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    backdrop-filter: blur(30px);
+}
+.btn{
+    background: var(--botonprimario);
+    color: var(--texto);
+    padding: 5px 10px;
+}
+.campo{
+    margin-bottom: 8px;
+}
+.completa{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--bordes);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    color:#000;
+}
+.formulario{
+    backdrop-filter: blur(30px);
+    padding: 10px;
+    border-radius: 6px;
+    button{
+        width: 100%;
+    }
+}
+.info{
+    color: var(--texto);
+    text-align: center;
+}
+.form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
+.btn:hover{
+    background-color: var(--botonsecundario);
+    color: var(--texto);
+    box-shadow: #000;
+}

@@ -1,6 +1,5 @@
 @import url('./globals.css');
-:root{
-}
+
 body{
     background-image: url('/img/fondo.jpg');
     background-size:cover;
@@ -8,13 +7,11 @@ body{
     background-repeat: no-repeat;
     backdrop-filter: blur(10px);
 }
-ul.menu li{
-    /* color: var(--colorbase); */
-    font-family: system-ui, -apple-system;
-}
+
 main{
     display: flex;
     height: 100dvh;
+    color: var(--texto);
 }
 .productos{
     display: flex;
@@ -28,7 +25,7 @@ main{
 .card{
     width: 30%;
     height: 30dvh;
-    border: 1px solid #f0f0f0;
+    border: 4px solid var(--colorsecundario);
     border-radius: 15px;
     padding: 20px;
     display: flex;

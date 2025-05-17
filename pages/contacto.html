@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/contacto.css">
-    <link rel="shortcut icon" href="img/icono pagina.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/icono_pagina.png" type="image/x-icon">
     <title>Contacto</title>
 </head>
 <body>
     <header>
     <nav>
+        <img src="./img/icono_pagina.png" alt="Icono Monade">
         <ul class="menu">
             <li id="opcion"><a href="../index.html">Inicio</a></li>
             <li id="opcion"><a href="./servicios.html">Servicios</a></li>
@@ -18,17 +19,22 @@
     </nav>
  </header>
  <main>
-    <h3>Contacto</h3>
-    <p>Estamos listos para realizar tu pedido o responder cualquier consulta sobre nuestros productos. Completa el formulario y nos pondremos en contacto con vos lo antes posible</p>
+    <section class="info">
+       <h3>Contacto</h3>
+       <p>Estamos listos para realizar tu pedido o responder cualquier consulta sobre nuestros productos. Completa el formulario y nos pondremos en contacto con vos lo antes posible</p>
+    </section>
     <div class="form">
         <form class="formilario">
+
             <div class="campo">
                 <input type="text" class="completa" placeholder="Nombre completo">
             </div> 
+
             <div class="campo">
                 <input type="email" class="completa" placeholder="Correo">
             </div>
-                        <div class="campo">
+
+            <div class="campo">
                 <select class="completa">
                     <option value="">Selecciona un servicio..</option>
                     <option value="">Collar</option>
@@ -39,9 +45,10 @@
             <div class="campo">
                 <textarea class="completa" placeholder="Especificar el tipo de accesorio" rows="4"></textarea>
             </div>
+            <button type="submit" class="btn">Enviar</button>
         </form>
     </div>
  </main>
- <footer></footer>
+ <footer>&copy; 2025 Monade. Todos los derechos reservados.</footer>
 </body>
 </html>

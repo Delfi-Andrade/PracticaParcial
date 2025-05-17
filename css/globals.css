@@ -4,7 +4,7 @@
     --texto:#f0f0f0;
     --botonprimario:#d183C9;
     --botonsecundario:#1C3144;
-
+    --bordes:#CDE5D7;
 }
 *{
     margin: 0;
@@ -25,9 +25,14 @@ main{
     list-style: none;
     width: 40%;
 }
+ul.menu li{
+    /* color: var(--colorbase); */
+    font-family: system-ui, -apple-system;
+
+}
 ul.menu li a{
     text-decoration: none;
-    color: black;
+    color: var(--texto);
 }
 nav{
     width: 100%;
@@ -36,4 +41,12 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
+}
+nav img{
+    width: 45px;
+}
+footer{
+    color: var(--texto);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
