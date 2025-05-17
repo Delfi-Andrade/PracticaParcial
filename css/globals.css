@@ -1,5 +1,9 @@
 :root{
-    --colorbase:#4C1A57;
+    --colorbase:#D64933;
+    --colorsecundario:#420217;
+    --texto:#f0f0f0;
+    --botonprimario:#d183C9;
+    --botonsecundario:#1C3144;
 
 }
 *{
