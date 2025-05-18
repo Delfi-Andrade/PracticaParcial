@@ -19,8 +19,8 @@ main{
     backdrop-filter: blur(10px);
     flex-direction: column;
 }
-main h1{
-    color: black;
+h1{
+    color: var(--texto);
 }
 .info{
     align-items:center;
@@ -88,12 +88,12 @@ main h1{
     justify-content: center;
     align-items: center;
     } 
-    main{
+         main{
         height: 100vh;
     }
-    main h1{
-    color: var(--texto);
-}
+    h1{
+        color:black;
+    }
 }
 @media (min-width:470px){
     .menu{
@@ -104,5 +104,4 @@ main h1{
         margin-bottom: 10px;
         gap: 10px;
     }
-
 }

@@ -14,9 +14,6 @@
 }
 main{
     padding: 16px;
-    h1{
-        color: black;
-    }
     font-family: system-ui, -apple-system;
 }
 .menu{
