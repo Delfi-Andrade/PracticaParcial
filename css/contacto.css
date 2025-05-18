@@ -22,6 +22,7 @@ header{
 }
 .campo{
     margin-bottom: 8px;
+    width: 70vh;
 }
 .completa{
     width: 100%;
@@ -72,5 +73,10 @@ textarea{
     }
     .btn{
         width: 100%;
+    }
+}
+@media (max-width:600px) {
+    .campo{
+        width:200px;
     }
 }
