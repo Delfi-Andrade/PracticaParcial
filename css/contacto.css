@@ -59,3 +59,18 @@ textarea{
     color: var(--texto);
     box-shadow: #000;
 }
+@media (max-width:470px) {
+    .menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 10px;
+    }
+    nav{
+           height: 70px;
+    }
+    .btn{
+        width: 100%;
+    }
+}
