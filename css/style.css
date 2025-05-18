@@ -47,11 +47,15 @@ main{
     margin: 15px 0;
 }
 .imagen-carta{
-    width: 200px;
-    height: 300px;
+    width: 170px;
+    height: 200px;
 }
-.card:hover{
-    scale: 1.02;
+.contenedor-imagen{
+    object-fit: cover;
+    align-items: center;
+}
+.card p{
+    margin-bottom: 20px;
 }
 .mas{
     background: var(--botonprimario);
@@ -60,4 +64,16 @@ main{
     border-radius: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
     font-size: 20px;
+    text-decoration: none;
+}
+.mas:hover{
+    background-color: var(--botonsecundario);
+    color: var(--texto);
+    box-shadow: #000;
+}
+.card:hover{
+    scale: 1.02;
+}
+@media screen {
+    
 }
