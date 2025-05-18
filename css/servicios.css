@@ -64,4 +64,20 @@ main{
         padding: 1rem 5rem;
     }
 }
+@media (max-width:400px) {
+    body{
+        height: 140vh;
+    }
+    main{
+        height: 130vh;
+    }
+}
+@media (max-width:350px) {
+    body{
+        height: 155vh;
+    }
+    main{
+        height: 140vh;
+    }
+}
 
