@@ -20,7 +20,7 @@ main{
     flex-direction: column;
 }
 main h1{
-    color: var(--texto);
+    color: black;
 }
 .info{
     align-items:center;
