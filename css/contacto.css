@@ -59,6 +59,14 @@ textarea{
     color: var(--texto);
     box-shadow: #000;
 }
+.contenedor-redes{
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+}
+.instagram{
+    width: 50px;
+}
 @media (max-width:470px) {
     .menu{
     display: flex;
