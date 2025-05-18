@@ -31,7 +31,7 @@ main{
 }
 .card{
     width: 30%;
-    height: 30dvh;
+    height: 50dvh;
     border: 4px solid var(--colorsecundario);
     border-radius: 15px;
     padding: 20px;
@@ -46,6 +46,18 @@ main{
 .titulo-carta{
     margin: 15px 0;
 }
+.imagen-carta{
+    width: 200px;
+    height: 300px;
+}
 .card:hover{
     scale: 1.02;
+}
+.mas{
+    background: var(--botonprimario);
+    color: var(--texto);
+    padding: 10px;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    font-size: 20px;
 }
